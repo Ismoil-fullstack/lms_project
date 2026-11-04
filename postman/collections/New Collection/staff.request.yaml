@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:8000/staff
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"fullname\": \"Ismoil\",\r
+
+    \    \"phone\": \"937909080\",\r
+
+    \    \"password\": \"12345\",\r
+
+    \    \"role\": \"student\"\r
+
+    }"
+order: 1000
